@@ -1,0 +1,614 @@
+body{
+    font-family: 'Poppins';
+    margin: 0px;
+}
+.main_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.navbar{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .font_navbar{
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.container_carackter{
+    width: 100%;
+    height: 605px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 1020px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.kiri{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+.oren{
+    border-radius: 20px;
+    background-color: #FFF4DC;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+    .container_gambar{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        height: 120%;
+        img{
+            height: 216px;
+            width: 216px;
+        }
+    }
+    .container_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between-;
+        width: 100%;
+        height: 140px;
+        padding: 20px;
+        .info{
+            width: 100%;
+            height: 80%;
+            .name{
+                font-size: 32px;
+                margin: 0px;
+                font-weight: 500;
+            }
+            .desk{
+                font-size: 14px;
+                margin: 0px;
+                font-weight: 500;
+            }
+        }
+        .button_oren{
+            background-color: #E29A00;
+            color: #ffff;
+            border-radius: 15px;
+            border: none;
+            height: 37px;
+            font-size: 20px;
+            font-weight: 500;
+            gap: 20px;
+        }
+    }
+}
+.info2{
+    display: none;
+    width: 100%;
+    height: 80%;
+    .name2{
+        font-size: 32px;
+        margin: 0px;
+        font-weight: 500;
+    }
+    .desk2{
+        font-size: 14px;
+        margin: 0px;
+        font-weight: 500;
+    }
+}
+
+.container_3{
+    background-color: white;
+    height: 390px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.container_2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+.ijo{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #E1FFDC;
+    height: 40%;
+    padding: 20px;
+    .container_gambar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+        }   
+    }
+    .button_ijo{
+        background-color: #7EB782;
+        color: #ffff;
+        border-radius: 15px;
+        border: none;
+        height: 37px;
+        font-size: 20px;
+        font-weight: 500;
+        gap: 20px;
+    } 
+}
+.pink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #FFCED7;
+    height: 50%;
+    padding: 20px;
+    .container_gambar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+        }  
+    }
+    .button_pink{
+        background-color: #FF5573;
+        color: #ffff;
+        border-radius: 15px;
+        border: none;
+        height: 37px;
+        font-size: 20px;
+        font-weight: 500;
+        gap: 20px;
+    }
+}
+.biru{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #E2F2FF;
+    height: 94%;
+    width: 50%;
+    padding: 15px;
+    gap: 0px;
+    .container_gambar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        width: 80%;
+    }
+    .container_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px ;
+        .name{
+            font-size: 20px;
+            font-weight: 500;
+            margin: 0px;
+        }
+        .desk{
+            font-size: 14px;
+            font-weight: 500;
+            margin: 0px;
+        }
+    }
+    .button_biru{
+        background-color: #3279AF;
+        color: #ffff;
+        border-radius: 15px;
+        border: none;
+        width: 173px;
+        height: 37px;
+        font-size: 20px;
+        font-weight: 500;
+        gap: 20px;
+    }
+}
+.kanan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+    
+}
+.tiga_carackter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    height: 392px;
+    padding: 30px;
+    .group_dewa{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+    }
+}
+.container_dewa{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: #D8D6C1 ;
+    background-color: #ffff;
+    height: 100px;
+    .container_gambar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        padding-left: 15px;
+    }
+    .container_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 10px;
+        width: 100%;
+        h5{
+            font-size: 20px;
+            font-weight: 500;
+            margin: 5px;
+        }
+        .button2{
+            width: 149px;
+            height: 22px;
+            border-radius: 10px;
+            border: none;
+            background-color: #D8D6C1;
+            color: #ffff;
+        }
+    }
+}
+.dua_carackter{
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    height: 179px;
+    padding: 20px;
+    .group_dua{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;   
+        gap: 20px;
+        .container_brook{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            width: 50%;
+            height: 100%;
+            .container_gambar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 60%;
+            }
+            .container_info{
+                h6{
+                    font-size: 15px;
+                    font-weight: 500;
+                    margin: 0px;
+                    margin-bottom: 10px;
+                }
+                .button3{
+                    width: 100px;
+                    height: 55px;
+                    border-radius: 10px;
+                    border: none;
+                    color: #ffff;
+                    background-color: #D8D6C1;
+                }
+            }
+        }
+        .container_jinbe{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 100%;
+            .container_gambar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 60%;
+            }
+            .container_info{
+                h6{
+                    font-size: 15px;
+                    font-weight: 500;
+                    margin: 0px;
+                    margin-bottom: 10px;
+                }
+                .button3{
+                    width: 100px;
+                    height: 55px;
+                    border-radius: 10px;
+                    border: none;
+                    color: #ffff;
+                    background-color: #D8D6C1;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .navbar{
+        bottom: 0px;
+    }
+    .title{
+        padding-top: 10px;
+    }
+    .container_carackter{
+
+        justify-content: baseline;
+        align-items: baseline;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        height: max-content;
+        padding-bottom: 100px;
+    }
+    .kiri{
+        width: 100%;
+        height: max-content;
+    }
+    .kanan{
+        width: 100%;
+        height: max-content;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .container_3{
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+    }
+    .container_2{
+        width: 100%;
+        height: max-content;  
+    }
+
+
+    .oren{
+        height: 299px;
+    }
+    .ijo{
+        width: 100%;
+        height: 221px;
+
+    }
+    .pink{
+        width: 100%;
+        height: 221px;
+    }
+    .biru{
+        width: 100%;
+        height: 324px;
+    }
+    .tiga_carackter{
+        padding: 0px;
+        background-color: rgba(255, 255, 255, 0);
+        height: max-content;
+        .group_dewa{
+            background-color: white;
+            height: max-content;
+            .container_dewa{
+                margin-bottom: 30px;
+                height: 221px;
+                width: 100%;
+            }
+        }
+    }
+
+    .dua_carackter{
+        background-color: white;
+        padding: 0px;
+        width: 100%;
+        height: max-content;
+        .group_dua{
+            background-color: white;
+            flex-direction: column;
+            width: 100%;
+            height: max-content;
+            gap: 35px;
+            .container_brook{
+                border-radius: 20px;
+                height: 221px;
+                width: 100%;
+            }
+            .container_jinbe{
+                border-radius: 20px;
+                height: 221px;
+                width: 100%;
+            }
+        }
+    }
+    
+    /* luffy */
+    .oren{
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        .container_info{
+            padding: 0px;
+            justify-content: center;
+            align-items: center;
+            height: max-content;
+            .info{
+                display: none;
+            }
+            .info2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .button_oren{
+                width: 334.78px;
+                height: 45px;
+                gap: 0px;
+            }
+        }
+    }
+    /* ijo */
+    .ijo{
+        height: 30%;
+        width: 90%;
+    }
+    /* pink */
+    .pink{
+        height: 30%;
+        width: 90%;
+    }
+    /* sanji */
+    .biru{
+        justify-content: end;
+        height: 30%;
+        width: 90%;
+        .button_biru{
+            width: 334.78px;
+            height: 37px;
+        }
+
+    }
+    .container_dewa{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: #E9E8E2;
+        .container_gambar{
+            height: 100%;
+            width: 100%;
+            padding: 0%;
+            img{
+                height: 100%;
+            }
+        }
+        .container_info{
+            justify-content: center;
+            align-items: center;
+            height:max-content;
+            width: 100%;
+            padding: 0px;
+
+            h5{
+                display: none;
+            }
+            .button2{
+                width: 334.78px;
+                height: 37px;
+                padding: 0px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .group_dua{
+        flex-direction: column;
+        .container_brook{
+            background-color: #FFDBC5;
+            flex-direction: column;
+            .container_info{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: max-content;
+                margin: 0px;
+                h6{
+                    display: none;
+                }
+                .button3{
+                    width: 100%;
+                    height: 37px;
+                    padding: 0px;
+                    margin-bottom: 20px; 
+                }
+            }
+        }
+        .container_jinbe{
+            flex-direction: column;
+            background-color: #8FC5ED;
+            .container_info{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: max-content;
+                margin: 0px;
+                h6{
+                    display: none;
+                }
+                .button3{
+                    width: 100%;
+                    height: 37px;
+                    padding: 0px;
+                    margin-bottom: 20px;
+                    background-color: #FF5573;
+                }
+            }
+        }
+    }
+    #but_brok{
+        background-color: #FF5573;
+        width: 90%;
+        height: 35px;
+    }
+    #but_jinbe{
+        background-color: #275E87;
+        width: 90%;
+        height: 35px;
+    }
+} 
+
